@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+
+    <body class="p-5 md:p-10 md:py-0 text-amber-950 min-w-[486px]">
+        <!-- header section -->
+        <!-- section 1 Header -->
+        <header class="bg-gray-200 rounded-2xl p-5 mb-6">
+            <div class="container mx-auto">
+                <div class="flex">
+                    <a class="text-3xl font-bold pr-5 border-r border-red-200 rounded mr-1 lg:mr-5  hover:shadow-[#89CFF3] hover:shadow-lg" href="#">AK</a>
+                    <!-- MQ button toggle -->
+                    <div class="my-auto">
+                            <button class="md:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                                  </svg>
+                            </button>
+                        <!-- Header nav list -->
+                        <ul class="hidden md:flex font-bold">
+                            <li class="pr-5"><a class="px-3 py-2 border border-grey-50 hover:border-purple-400 rounded" href="#">Home</a></li>
+                            <li class="pr-5"><a class="px-3 py-2 border border-grey-50 hover:border-purple-400 rounded" href="#">About</a></li>
+                            <li class="pr-5"><a class="px-3 py-2 border border-grey-50 hover:border-purple-400 rounded" href="#">Services</a></li>
+                            <li class="pr-5"><a class="px-3 py-2 border border-grey-50 hover:border-purple-400 rounded" href="#">Portfolios</a></li>
+                            <li class="pr-5"><a class="px-3 py-2 border border-grey-50 hover:border-purple-400 rounded" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- feedback button -->
+                        <a class="flex bg-red-500 px-3 py-2 text-medium text-white rounded ml-auto hover:bg-red-700 active:translate-y-1 hover:shadow-md" href="#">
+                        <span class="pr-2 hidden lg:block">feedback</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                        </svg>
+                          
+                    </a>
+                </div>
+            </div>
+            <!-- MQ mobile Nav list -->
+            <div class="hidden">
+                <ul class="lg:hidden font-bold text-gray-600">
+                    <li class="mt-1"><a class="py-2" href="#">Home</a></li>
+                    <li class="mt-1"><a class="py-2" href="#">About</a></li>
+                    <li class="mt-1"><a class="py-2" href="#">Services</a></li>
+                    <li class="mt-1"><a class="py-2" href="#">Portfolios</a></li>
+                    <li class="mt-1"><a class="py-2" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- hero image -->
+            <div class="flex pt-24 pb-8 sm:justify-center w-full">
+                <div class="w-full lg:w-1/2 md:mr-8">
+                    <h2 class="relative text-center text-3xl lg:text-5xl lg:text-left font-medium leading-tight mb-5 break-keep ">Innovative designs with only TailwindCSS
+                        <!-- tailwind logo -->
+                        <!-- <span class=" absolute inline-block bottom-[5px] ml-2">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQixYgLSSVCB9SR2aVkiQrahyp5aKUjECFFqEGLLCJNcw&s" alt="TaiwindCSS" width="50">
+                        </span> -->
+                    </h2>
+                    
+                    <p class="pl-2 mt-8 text-center lg:text-left text-2xl break-keep">Hard work turns into smart work</p>
+                    <div class="flex mt-8 justify-center lg:justify-start">
+                        <a href="#" class="bg-[#00aaff] px-4 py-2 mx-2">More Desings</a>
+                        <a href="#" class="bg-[#00aaff] px-4 py-2 mx-2">Explore More</a>
+                    </div>
+                </div>
+                <!-- computer img -->
+                <div class="w-1/2 hidden lg:block">
+                    <img class="m-auto " src="assests/Agency Website/assets/computer.jpg" width="500px" alt="hero2">
+                </div>
+            </div>
+            <br><br>
+            <!-- scroll down -->
+            <div class=" flex mx-auto justify-center my-2 text-[15px]">
+                <p class="relative">scroll down
+                    <span class="absolute inline-block top-[5px] ml-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 opacity-70" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                          </svg>
+                    </span>
+                </p>
+                
+            </div>
+        </header>
+
+        <!-- section 2 Our services-->
+        <section class="bg-red-200 rounded-2xl p-5 mb-6">
+            <div class="container mx-auto">
+                <!-- Our services -->
+                <div class="py-10 text-center">
+                    <h2 class="text-4xl font-medium py-5">Our Services</h2>
+                    <div class="text-justify inline-block">
+                    <p class="mx-auto text-center max-md:text-justify max-md:px-1 md:px-28">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem molestias dolore repudiandae architecto consequuntur! Id, facere, autem, ut nemo libero adipisci illum corporis officiis facilis aliquid cum maxime sint magni!</p>
+                    </div>
+                </div>
+                <!-- cards -->
+                <div class=" flex max-lg:flex-wrap justify-center py-10">
+                    <div class="w-full md:1/3 m-2 bg-white p-10 rounded-2xl shadow-2xl">
+                        <span class="inline-block">
+                            <svg class="w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
+                            </svg>
+                        </span>
+                        <h3 class="font-medium text-gray-800 text-2xl py-4">Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ex fugiat ducimus labore, quae, perferendis harum tenetur commodi maiores sapiente nesciunt, voluptatem illum vitae repellat quia minima neque officia nisi!</p>
+                    </div>
+                    <div class="w-full md:1/3 m-2 bg-white p-10 rounded-2xl shadow-2xl">
+                        <span class="inline-block">
+                            <svg class="w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                            </svg>
+                        </span>
+                        <h3 class="font-medium text-gray-800 text-2xl pb-4">Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ex fugiat ducimus labore, quae, perferendis harum tenetur commodi maiores sapiente nesciunt, voluptatem illum vitae repellat quia minima neque officia nisi!</p>
+                    </div>
+                    <div class="w-full md:1/3 m-2 bg-white p-10 rounded-2xl shadow-2xl">
+                        <span class="inline-block">
+                            <svg class="w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                            </svg>
+                        </span>
+                        <h3 class="font-medium text-gray-800 text-2xl pb-4">User Friendly</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ex fugiat ducimus labore, quae, perferendis harum tenetur commodi maiores sapiente nesciunt, voluptatem illum vitae repellat quia minima neque officia nisi!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 3 Portfolio-->
+        <section class="bg-purple-200 rounded-2xl p-5 mb-6">
+            <div class="container mx-auto">
+                <!-- Our services -->
+                <div class=" py-10 text-center">
+                    <h2 class="text-4xl font-medium py-5">Our Portfolio</h2>
+                    <div class="px-4 text-center inline-block">
+                    <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem molestias dolore repudiandae architecto consequuntur! Id, facere, autem, ut nemo libero adipisci illum corporis officiis facilis aliquid cum maxime sint magni!</p>
+                    </div>
+                </div>
+                <!-- cards -->
+                <div class="flex flex-wrap justify-center pb-10">
+                    <div class="lg:w-1/2 py-5 lg:pt-16">
+                        <div class="w-3/5 mx-auto">
+                            <div class="bg-white rounded-3xl shadow-2xl">
+                                <img class="rounded-t-3xl" src="assests/Agency Website/assets/FB.jpg" alt="FBadv">
+                                <div class="px-2 text-center">
+                                    <span class="ml-4 bg-red-200 rounded p-1 inline-block my-1">Design</span>
+                                    <span class="ml-2 bg-green-300 rounded p-1 inline-block my-1">Development</span>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="lg:w-1/2 py-5 lg:py-8">
+                        <div class="w-3/5 mx-auto">
+                            <div class="bg-white rounded-3xl shadow-2xl">
+                                <img class="rounded-t-3xl" src="assests/Agency Website/assets/FB.jpg" alt="FBadv">
+                                <div class="px-2 text-center">
+                                    <span class="ml-4 bg-red-200 rounded p-1 inline-block my-1">Design</span>
+                                    <span class="ml-2 bg-green-300 rounded p-1 inline-block my-1">Development</span>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="lg:w-1/2 py-5 lg:pt-16">
+                        <div class="w-3/5 mx-auto">
+                            <div class="bg-white rounded-3xl shadow-2xl">
+                                <img class="rounded-t-3xl" src="assests/Agency Website/assets/FB.jpg" alt="FBadv">
+                                <div class="px-2 text-center">
+                                    <span class="ml-4 bg-red-200 rounded p-1 inline-block my-1">Design</span>
+                                    <span class="ml-2 bg-green-300 rounded p-1 inline-block my-1">Development</span>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="lg:w-1/2 py-5 lg:py-8">
+                        <div class="w-3/5 mx-auto">
+                            <div class="bg-white rounded-3xl shadow-2xl">
+                                <img class="rounded-t-3xl" src="assests/Agency Website/assets/FB.jpg" alt="FBadv">
+                                <div class="px-2 text-center">
+                                    <span class="ml-4 bg-red-200 rounded p-1 inline-block my-1">Design</span>
+                                    <span class="ml-2 bg-green-300 rounded p-1 inline-block my-1">Development</span>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="lg:w-1/2 py-5 lg:pt-16">
+                        <div class="w-3/5 mx-auto">
+                            <div class="bg-white rounded-3xl shadow-2xl">
+                                <img class="rounded-t-3xl" src="assests/Agency Website/assets/FB.jpg" alt="FBadv">
+                                <div class="px-2 text-center">
+                                    <span class="ml-4 bg-red-200 rounded p-1 inline-block my-1">Design</span>
+                                    <span class="ml-2 bg-green-300 rounded p-1 inline-block my-1">Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+        <!-- products Products and companies-->
+        <section class="bg-green-300 p-5 mb-6 rounded-lg w-4/5 mx-auto text-center">
+            <div class="p-1">
+                <h1 class="text-rounded-lg text-2xl">Our Projects for companies</h1>
+                <div class="flex justify-around my-5 mx-5">
+                    <img class="max-md:w-[15%]" src="/assests/Agency Website/assets/social media icons/FaceB.png" alt="Facebookicons" width="80">
+                    <img class="max-md:w-[15%]" src="/assests/Agency Website/assets/social media icons/Whspp.png" alt="Whsppicons" width="80">
+                    <img class="max-md:w-[15%]" src="/assests/Agency Website/assets/social media icons/tweet.png" alt="tweeticons" width="80">
+                    <img class="max-md:w-[15%]" src="/assests/Agency Website/assets/social media icons/inst.png" alt="insticons" width="80">
+                </div>
+            </div>
+        </section>
+
+        <!-- section 4 Reviews-->
+        <section class="bg-gray-200 rounded-2xl p-5 mb-6">
+            <div class="container mx-auto">
+                <!-- Testimonials -->
+                <div class=" py-10 text-center">
+                    <h2 class="text-4xl font-medium py-5">Positive Reviews</h2>
+                    <div class="px-4 text-center inline-block">
+                    <p class="">Keen Ratings From Our Customers</p>
+                    </div>
+                </div>
+                <!-- comments -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center pb-10">
+                    <div class=" bg-gray-300 p-6 m-1 rounded-2xl">
+                        <div class="mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900 mb-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+                            </svg>
+                            <p class="text-justify mb-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta laborum quia, repellat asperiores eum at voluptatum magni cum corporis saepe accusamus dolor adipisci, suscipit esse expedita, est repellendus voluptate.</p>
+                            <h6 class="text-black font-semibold">Info</h6>
+                            <p class="mb-1 text-gray-600">Company Designation</p>
+                            <div class="flex text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" bg-gray-300 p-6 m-1 rounded-2xl">
+                        <div class="mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900 mb-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+                            </svg>
+                            <p class="text-justify mb-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta laborum quia, repellat asperiores eum at voluptatum magni cum corporis saepe accusamus dolor adipisci, suscipit esse expedita, est repellendus voluptate.</p>
+                            <h6 class="text-black font-semibold">Info</h6>
+                            <p class="mb-1 text-gray-600">Company Designation</p>
+                            <div class="flex text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" bg-gray-300 p-6 m-1 rounded-2xl">
+                        <div class="mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900 mb-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+                            </svg>
+                            <p class="text-justify mb-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta laborum quia, repellat asperiores eum at voluptatum magni cum corporis saepe accusamus dolor adipisci, suscipit esse expedita, est repellendus voluptate.</p>
+                            <h6 class="text-black font-semibold">Info</h6>
+                            <p class="mb-1 text-gray-600">Company Designation</p>
+                            <div class="flex text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" bg-gray-300 p-6 m-1 rounded-2xl">
+                        <div class="mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900 mb-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+                            </svg>
+                            <p class="text-justify mb-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta laborum quia, repellat asperiores eum at voluptatum magni cum corporis saepe accusamus dolor adipisci, suscipit esse expedita, est repellendus voluptate.</p>
+                            <h6 class="text-black font-semibold">Info</h6>
+                            <p class="mb-1 text-gray-600">Company Designation</p>
+                            <div class="flex text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" bg-gray-300 p-6 m-1 rounded-2xl">
+                        <div class="mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900 mb-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+                            </svg>
+                            <p class="text-justify mb-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta laborum quia, repellat asperiores eum at voluptatum magni cum corporis saepe accusamus dolor adipisci, suscipit esse expedita, est repellendus voluptate.</p>
+                            <h6 class="text-black font-semibold">Info</h6>
+                            <p class="mb-1 text-gray-600">Company Designation</p>
+                            <div class="flex text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" bg-gray-300 p-6 m-1 rounded-2xl">
+                        <div class="mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900 mb-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+                            </svg>
+                            <p class="text-justify mb-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta laborum quia, repellat asperiores eum at voluptatum magni cum corporis saepe accusamus dolor adipisci, suscipit esse expedita, est repellendus voluptate.</p>
+                            <h6 class="text-black font-semibold">Info</h6>
+                            <p class="mb-1 text-gray-600">Company Designation</p>
+                            <div class="flex text-green-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>  
+
+        <!-- section 5 Statistics / Tabs with scores-->
+        <section class="bg-black rounded-2xl p-5 mb-6">
+            <div class="container mx-auto">
+                <!-- tabs -->
+                <div class="flex flex-wrap">
+                    <!-- red -->
+                    <div class="w-1/2 lg:w-1/4 sm:text-1xl p-5 text-white">
+                        <div class="border border-white p-5 rounded-2xl bg-red-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-14 h-14">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" />
+                                </svg>
+                            <div class="ml-2 mt-5">
+                                <p class="text-2xl mt-1">1300</p>
+                                <h2 class="text-2xl mt-1 text-red-200">Clients</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- purple -->
+                    <div class="w-1/2 lg:w-1/4 sm:text-1xl p-5 text-white">
+                        <div class="border border-white p-5 rounded-2xl bg-purple-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-14 h-14">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25" />
+                            </svg>
+                            <div class="ml-2 mt-5">
+                                <p class="text-2xl mt-1">1250</p>
+                                <h2 class="text-2xl mt-1 text-red-200">Clients</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- red -->
+                    <div class="w-1/2 lg:w-1/4 sm:text-1xl p-5 text-white">
+                        <div class="border border-white p-5 rounded-2xl bg-red-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-14 h-14">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" />
+                                </svg>
+                            <div class="ml-2 mt-5">
+                                <p class="text-2xl mt-1">1180</p>
+                                <h2 class="text-2xl mt-1 text-red-200">Clients</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- purple -->
+                    <div class="w-1/2 lg:w-1/4 sm:text-1xl p-5 text-white">
+                        <div class="border border-white p-5 rounded-2xl bg-purple-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-14 h-14">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25" />
+                                </svg>
+                            <div class="ml-2 mt-5">
+                                <p class="text-2xl mt-1">1000</p>
+                                <h2 class="text-2xl mt-1 text-red-200">Clients</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+
+        <!-- section 6 Register here-->
+        <section class="bg-red-300 rounded-2xl p-5 mb-6">
+            <div class="container mx-auto">
+                <!-- tabs -->
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-1/2 p-4 flex self-center">
+                        <img src="assests/Agency Website/assets/percentage cards.jpg" alt="product.png">
+                    </div>
+                    <div class="w-full md:w-1/2 p-4 justify-around">
+                        <h2 class="text-3xl font-bold sm:font-semibold lg:text-4xl">Register To Receive Discounts</h2>
+                        <p class="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur ex et veritatis iusto quia veniam neque tempore.</p>
+                        <!-- form type -->
+                        <div class="my-2">
+                            <form action="#">
+                                <div class="mt-2">
+                                    <label class="mb-1" for="Your Good Name"><h2 class="text-lg font-semibold">Your Good Name</h2></label>
+                                    <div class="flex bg-white p-1 border hover:border-red-900">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-0">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                        <input type="text" id="Your Good Name" name="Your Good Name" class="w-full focus:outline-none ml-1">
+                                    </div>
+                                </div>
+                                <div class="mt-2">
+                                    <label class="mb-1" for="Your email"><h2 class="text-lg font-semibold">Your email</h2></label>
+                                    <div class="flex bg-white p-1 border hover:border-red-900">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-0">
+                                            <path stroke-linecap="round" d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25" />
+                                        </svg>
+                                        <input type="text" id="Your email" name="Your email" class="w-full focus:outline-none ml-1" placeholder="@email.com" required>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <input type="checkbox" class="mr-2 mt-1">Agree
+                                    <button class="bg-blue-500 text-white px-4 py-1 mt-1 block rounded-lg max-sm:w-full">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+
+        <!--Footer -->
+        <footer class="bg-gray-900 rounded-2xl p-5 mb-6">
+            <div class="container mx-auto text-white">
+                <div class=" p-2 pb-0">
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-1/3 py-3">
+                            <div class="w-fit underline underline-offset-4 text-gray-600">
+                                <h2 class="text-white mb-2">Address</h2>
+                            </div>
+                            <div class="text-gray-400">
+                                <address>
+                                    No.01, Lane, Street<br>
+                                    Chennai, india <br>
+                                    600000.
+                                </address>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/3 py-3">
+                            <div class="w-fit underline underline-offset-4 text-gray-600">
+                                <label for="PageRelevants"><h2 class="text-white mb-2">How would you rate this page</h2></label>
+                            </div>
+                            <div class="text-gray-400">
+                                <ul>
+                                    <li>
+                                        <label for="Awesome">
+                                            <svg class="w-6 h-6 inline-block" fill="currentColor" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44zm.678 2.033-2.361 4.792-5.246.719 3.848 3.643-.948 5.255 4.707-2.505 4.707 2.505-.951-5.236 3.851-3.662-5.314-.756z" fill-rule="nonzero"/></svg>
+                                            <span>Awesome</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <svg class="w-6 h-6 inline-block" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.508 13.941c-1.513 1.195-3.174 1.931-5.507 1.931-2.335 0-3.996-.736-5.509-1.931l-.492.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.492-.493zm.492-3.939l-.755.506s-.503-.948-1.746-.948c-1.207 0-1.745.948-1.745.948l-.754-.506c.281-.748 1.205-2.002 2.499-2.002 1.295 0 2.218 1.254 2.501 2.002zm-7 0l-.755.506s-.503-.948-1.746-.948c-1.207 0-1.745.948-1.745.948l-.754-.506c.281-.748 1.205-2.002 2.499-2.002 1.295 0 2.218 1.254 2.501 2.002z"/></svg>
+                                        <span>Good</span>
+                                    </li>
+                                    <li>
+                                        <svg class="w-6 h-6 inline-block" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.698 15.354c-.405-.031-.367-.406.016-.477.634-.117.913-.457.913-.771 0-.265-.198-.511-.549-.591-.418-.095-.332-.379.016-.406.566-.045.844-.382.844-.705 0-.282-.212-.554-.63-.61-.429-.057-.289-.367.016-.461.261-.08.677-.25.677-.755 0-.336-.25-.781-1.136-.745-.614.025-1.833-.099-2.489-.442.452-1.829.343-4.391-.845-4.391-.797 0-.948.903-1.188 1.734-.859 2.985-2.577 3.532-4.343 3.802v4.964c3.344 0 4.25 1.5 6.752 1.5 1.6 0 2.426-.867 2.426-1.333 0-.167-.136-.286-.48-.313z"/></svg>
+                                        <span>Better</span>
+                                    </li>
+                                    <li>
+                                        <svg class="w-6 h-6 inline-block" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.001 14c-2.332 0-4.145 1.636-5.093 2.797l.471.58c1.286-.819 2.732-1.308 4.622-1.308s3.336.489 4.622 1.308l.471-.58c-.948-1.161-2.761-2.797-5.093-2.797zm-3.501-6c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"/></svg>
+                                        <span>Improve</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/3 py-3">
+                            <div class="w-fit underline underline-offset-4 text-gray-600">
+                                <label for="Feedback?"><h2 class="text-white mb-2">Feedback?</h2></label>
+                            </div>
+                            <textarea class="text-black w-full px-3 py-1 overflow-auto hover:outline-none focus:outline-none border-2 border-orange-50 focus:border-2 focus:border-orange-600" name="Feedback?" id="Feedback?" cols="30" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- footer social media icons -->
+                    <div class="py-5 pb-0 text-center">
+                        <p class="pb-2 text-2xl">Reach Me Via</p>
+                        <div class="pb-3">
+                            <p>webcreations@email.com</p>
+                            <p>+91-098765-6321</p>
+                        </div>
+                        <div class="flex justify-center">
+                            <a href="#" class="mr-5">
+                                <div class="text-gray-200 border border-gray-200 rounded-[100%] w-fit p-3">
+                                    <svg stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                                </div>
+                            </a>
+                            
+                            <a href="#" class="mr-5">
+                                <div class="text-gray-200 border border-gray-200 rounded-[100%] w-fit p-3">
+                                    <svg stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z"/></svg>
+                                </div>
+                            </a>
+                            <a href="#" class="mr-5">
+                                <div class="text-gray-200 border border-gray-200 rounded-[100%] w-fit p-3">
+                                    <svg stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg> 
+                                </div>
+                            </a>
+                            <a href="#" class="mr-5">
+                                <div class="text-gray-200 border border-gray-200 rounded-[100%] w-fit p-3">
+                                    <svg stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="text-gray-200 border border-gray-200 rounded-[100%] w-fit p-3">
+                                    <svg stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mt-3 mb-0">&copy; AKwebcreations.io</div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>        
+    </body>
+</html>
